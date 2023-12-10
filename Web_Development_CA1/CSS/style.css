@@ -1,0 +1,349 @@
+/* Ben CSS below*/
+
+body{
+
+    background-color: #ffc800;
+    font-family: 'Gabarito', sans-serif;
+}
+
+#beeHome{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 225px;
+    width: 225px;
+}
+
+.col-sm-12{
+
+    text-align: center;
+}
+
+td,th{
+
+    border: 1px solid;
+    padding: 5px;
+}
+
+
+
+.header{
+
+    text-align: center;
+}
+
+.card{
+
+    background-color: white;
+}
+
+.card-title,.card-text{
+
+    color: black;
+}
+
+#briefOverview{
+
+    text-align: center;
+    border: 2px solid;
+    background-color: white;
+}
+
+#ourAim{
+
+    background-color: white;
+    border: 2px solid;
+    text-align: center;
+    
+}
+
+#beeCollage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+#beeGame{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+}
+
+#footer{
+
+    text-align: center;
+}
+
+#beeInfo{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 200px;
+    width: 250px;
+}
+
+#beeLogo{
+
+    height: 40px;
+    width: 40px;
+}
+
+#contactHeading{
+
+    text-align: center;
+}
+
+#contactForm{
+
+    text-align: center;
+}
+
+#garden{
+
+    width: 500px;
+    height: 500px;
+    background-color: lightgreen;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#gameHeading{
+
+    text-align: center;
+}
+
+#newGame{
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#contactForm{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Darragh CSS below*/
+
+#gallery_para{
+    text-align: center;
+}
+ 
+#gallery_title{
+    text-align: center;
+}
+ 
+/*stylig for all gallery images*/
+.gallery_images{
+    position: relative;
+    width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+ 
+.gallery_titles{
+    font-size: 40px;
+    font-weight: bold;
+}
+ 
+.gallery_descrip{
+    font-size: 20px;
+    margin-top: 10px;
+}
+ 
+ 
+ 
+/* image 1 styling */
+#image_1_img{
+    display: block;
+    width: 100%;
+}
+ 
+#image_1_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+ 
+#image_1_overlay:hover {
+    opacity: 1;
+}
+ 
+/* image 2 styling */
+#image_2_img{
+    display: block;
+    width: 100%;
+}
+ 
+#image_2_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+ 
+#image_2_overlay:hover {
+    opacity: 1;
+}
+ 
+/* image 3 styling */
+#image_3_img{
+    display: block;
+    width: 100%;
+}
+ 
+#image_3_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+ 
+#image_3_overlay:hover {
+    opacity: 1;
+}
+ 
+ 
+/* image 4 styling */
+#image_4_img{
+    display: block;
+    width: 100%;
+}
+ 
+#image_4_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+ 
+#image_4_overlay:hover {
+    opacity: 1;
+}
+ 
+/* image 5 styling */
+#image_5_img{
+    display: block;
+    width: 100%;
+}
+ 
+#image_5_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+ 
+ 
+#image_5_overlay:hover {
+    opacity: 1;
+}
+ 
+/*make fact div background black and change text color to yellow */
+.fact_background_black{
+    background-color: black;
+}
+ 
+.fact_text_yellow{
+    color: #ffc800;
+    text-align: right;
+    margin-right: 50px;
+}
+ 
+/*make fact div background yellow and change text color to black */
+.fact_text_black{
+    color: black;
+    margin-left: 50px;
+}
+ 
+.fact_background_yellow{
+    background-color: #ffc800;
+}
+ 
+#facts_title{
+    text-align: center;
+}
+
+/* Ryan CSS below */
+
+#beebody{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffc800;
+    text-align: center;
+}
+
+#imageofbee{
+    width: 40px;
+    height: 40px;
+}
+
+#beebum{
+    text-align: right;
+}
+
+#factsbee{
+    height: 150px;
+    width: 150px;
+}
+
+#secondphead{
+    background-color: black;
+    margin-left: auto;
+    color: #ffc800;
+}

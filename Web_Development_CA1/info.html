@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Bee Info</title>
+</head>
+<body>
+    <!-- the same navbar is used across all pages-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="Images/Bee_Logo.png" alt="Bee Logo" id="beeLogo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="game.html">Play Our Game</a></li>
+                  <li><a class="dropdown-item" href="photogallery.html">Photo Gallery</a></li>
+                  <li><a class="dropdown-item" href="facts.html">Bee Facts</a></li>
+                  <li><a class="dropdown-item" href="info.html">Information on Bees</a></li>
+                  <li><a class="dropdown-item" href="info2.html">More Information on Bees</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchBar">
+              <button class="btn btn-outline-success" type="submit" onclick="searchPage()">Search</button>
+            </form>
+          </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <hr>
+    <br>
+    <div id="beebody">
+      <br>
+        <h1 > so what do the bees do for the the eviroment</h1>
+      <br>
+      <br>
+      <div id="facts">
+        <p>Bees play a role, in our environment especially when it comes to the pollination of plants. They have an impact on one third of the worlds crops, including fruits, vegetables, nuts and seeds. Without bees many of these crops would struggle to reproduce leading to a decline in food production and availability. Additionally bees contribute to the well being of ecosystems by pollinating flowers and providing a source of nourishment for animals. They also play a part in the creation of products like honey, beeswax and royal jelly. Moreover bees serve as indicators of health since their populations can be influenced by factors such as pesticide use, climate change and habitat loss. All bees are indispensable, for maintaining the health and sustainability of both our environment and food systems.</p>
+      </div>
+        <img src="https://savethebees.com/static/media/didyou1.d8427b85.png" alt="beimportant" height="500px" width="500px">
+        <br>
+     
+    </div>
+
+    <div id="beebum">
+      <img src="https://honeywinesaustralia.com.au/wp-content/uploads/2020/05/interesting-bee-facts-scaled.jpg" alt="factsbee" id="factsbee">
+        <br>
+        <p>All bees have branched hairs somewhere on their bodies and two pairs of wings.</p>
+        <br>
+        <p> Only female bees have stingers.</p>
+        <br>
+        <p>  Many bee species have black and yellow coloration, but many do not.
+             Bees beat their wings 11,400 times in one minute.</p>
+        <br>
+        <p> Honey bees communicate through a series of dance moves.</p>
+        <br>
+        <p> A hive of bees will fly over 55,000 miles to make 1lb of honey and can create 100lbs of honey in a year.
+            Pollinators are responsible for 1 in every 3 bites of food we eat.</p>
+        <br>
+        <p> Bees have a heightened sense of smell, with 170 specialized receptors for odor.
+            There are 20,000 species of bees. </p>
+        <br>
+
+    </div>
+    <hr>
+    <!-- A footer to act as copyright -->
+    <div id="footer">
+        <br>
+        <p>Licenced 2023 @OurGroup</p>
+    </div>
+</body>
+</html>

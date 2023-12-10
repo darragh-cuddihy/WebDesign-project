@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito&family=Lato&family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Bee Facts</title>
+</head>
+<body>
+    <!-- the same navbar is used across all pages-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img src="Images/Bee_Logo.png" alt="Bee Logo" id="beeLogo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="game.html">Play Our Game</a></li>
+                  <li><a class="dropdown-item" href="photogallery.html">Photo Gallery</a></li>
+                  <li><a class="dropdown-item" href="facts.html">Bee Facts</a></li>
+                  <li><a class="dropdown-item" href="info.html">Information on Bees</a></li>
+                  <li><a class="dropdown-item" href="info2.html">More Information on Bees</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchBar">
+              <button class="btn btn-outline-success" type="submit" onclick="searchPage()">Search</button>
+            </form>
+          </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+      <hr>
+      <h1 id="facts_title">Bee Facts</h1>
+    <hr>
+ 
+    <div class="fact_background_black">
+        <br>
+        <p class="fact_text_yellow">
+            A single bee weighs .00025 pounds. 4,000 bees together weigh only one pound. <br> on average a hive has 50,000 bees, weighing 12 pounds together.
+        </p>
+        <br>
+    </div>
+ 
+    <div class="fact_background_yellow">
+        <br>
+        <p class="fact_text_black">
+            A single bee can produce 1 tablespoon of honey in its lifetime. 683 bees fly roughly 32,550 <br> miles to gather 5.93 lbs of nectar from about 1,185,000 flowers in order to make one 9.5 oz. jar of honey!
+        </p>
+        <br>
+    </div>
+ 
+    <div class="fact_background_black">
+        <br>
+        <p class="fact_text_yellow">
+            Bees can fly up to 12 mph. <br> On every foraging trip, a bee will visit 50-100 flowers to collect nectar!
+        </p>
+        <br>
+    </div>
+ 
+    <div class="fact_background_yellow">
+        <br>
+        <p class="fact_text_black">
+            A Queen Bee will lay 800,000 eggs in her lifetime! The queen’s life is dedicated to reproduction <br> and she only leaves the hive once in her life in order to mate.
+        </p>
+        <br>
+    </div>
+ 
+    <div class="fact_background_black">
+        <br>
+        <p class="fact_text_yellow">
+            Bees are remarkably tidy. Bees are very meticulous. <br> They groom each other and keep their hive incredibly clean.
+        </p>
+        <br>
+    </div>
+ 
+    <div class="fact_background_yellow">
+        <br>
+        <p class="fact_text_black">
+            The hexagonal shape of the honeycomb is the most efficient shape in our world.The pattern allows for the cells to be packed with no <br>empty space in between. Though the wax is thin and delicate the structure of the hexagonal cells can hold a tremendous amount of weight.
+        </p>
+        <br>
+    </div>
+ 
+    <div class="fact_background_black">
+        <br>
+        <p class="fact_text_yellow">
+            Bees are known to raid other hives and steal honey! Bees “rob” honey from other bees if honey from another hive is available (say, if a beekeeper leaves a hive open), <br> or if times are lean. However, if a guard bee from the robbed hive catches an interloper (detecting the foreign smell of the intruder), the two will engage in battle—stinging to the death.
+        </p>
+        <br>
+       
+    </div>
+ 
+    <br>
+    <!-- page end footer /mock copy right -->
+    <hr>
+        <div id="footer">
+          <br>
+          <p>Licenced 2023 @OurGroup</p>
+        </div>
+    
+</body>
+</html>
